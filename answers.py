@@ -18,7 +18,6 @@ def five_alpha (filename):
     '''
         Question #2
         What are the top 5 sent1's in alphabetical order?
-        Note: does not strip leading non-alphabetical characters
     '''
     import csv
     with open(filename, 'r') as file:
